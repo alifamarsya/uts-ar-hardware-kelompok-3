@@ -1,0 +1,38 @@
+# .gitignore - UTS AR Hardware Kelompok 3
+# TARUH FILE INI DI FOLDER REPO PALING LUAR, sejajar README.md dan folder src/
+# Jangan taruh di dalam folder project Unity.
+#
+# PENTING: folder build/ di repo paling luar SENGAJA TIDAK di-ignore,
+# supaya APK hasil build bisa disimpan di repo.
+# Yang di-ignore hanya folder Build/ DI DALAM project Unity (src/.../Build/).
+
+# Folder hasil generate Unity - jangan di-commit
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Ll]ogs/
+[Uu]serSettings/
+[Mm]emoryCaptures/
+src/ARHardwareKelompok3/[Bb]uild/
+src/ARHardwareKelompok3/[Bb]uilds/
+
+# File cache dan project Unity - jangan di-commit
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# File sistem - jangan di-commit
+.DS_Store
+Thumbs.db
+Desktop.ini
